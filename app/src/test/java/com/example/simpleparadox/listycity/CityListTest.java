@@ -102,6 +102,6 @@ class CityListTest {
         City city2 = new City("Charlottetown", "Prince Edward Island");
         cityList.add(city2);
         cityList.clearCities();
-        assertEquals(1, cityList.countCities());
+        assertEquals(0, cityList.countCities());
     }
 }
